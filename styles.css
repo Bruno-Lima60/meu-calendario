@@ -1,5 +1,65 @@
-.huninn-regular {
-  font-family: "Huninn", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+@import url('https://fonts.googleapis.com/css2?family=Huninn&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Huninn", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    background-color: rgb(150, 43, 43);
+}
+
+.titulo {
+    font-size: 32px;
+    background-color: rgb(136, 144, 255);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.mes {
+    font-size: 35px;
+    text-align: center;
+}
+
+.dias {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    background-color: rgb(255, 109, 109);
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#começo-dia {
+    grid-column-start: 4;
+}
+
+.semanas {
+    display: grid;
+    border-top: solid rgb(0, 0, 0);
+    border-bottom: solid rgb(0, 0, 0);;
+    font-size: 30px;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 10px;
+}
+
+.semanas div {
+    text-align: center;
+}
+
+.dias div {
+    background-color: #f1f1f1;
+    border:1px solid black;
+    padding: 4px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.container {
+    width: 400px;
+    max-width: 90%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    justify-content: center;
+    margin: 50px auto;
+
 }
