@@ -13,6 +13,7 @@ body {
     background-color: rgb(136, 144, 255);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    padding: px;
 }
 
 .mes {
@@ -61,5 +62,4 @@ body {
     border-radius: 30px;
     justify-content: center;
     margin: 120px auto;
-
 }
